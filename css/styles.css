@@ -1,13 +1,69 @@
 :root {
---primary-font: "Roboto", sans-serif; --logo-font: 'Raleway', sans-serif;
---slate:#434455; --navyblue: #2E2F42; --white:#FFFFFF; --iris: #4D5AE5;
---cloud: #F4F4FD; -ocean: #404BBF;  
+--primary-font: "Roboto", sans-serif;
+--logo-font: 'Raleway', sans-serif;
+--slate:#434455;
+--navyblue:#2E2F42;
+--white:#FFFFFF;
+--iris:#4D5AE5;
+--cloud:#F4F4FD;
+--ocean:#404BBF;  
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
 body {
 font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 }
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid red; 
+}  
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+    
 
 .header-logo.link {
 font-family: "Raleway", sans-serif;
@@ -210,6 +266,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
 color: #F4F4FD;
+max-width: 264px;
 }
 .button-all {
 color:#4D5AE5;
