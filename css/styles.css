@@ -87,7 +87,17 @@ text-transform: uppercase;
 display: inline-block;
  }
 
-
+.header-logo.link {
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+line-height: 1.17;
+font-weight: 800;
+letter-spacing: 0.03em;
+text-align: left;
+color: #4D5AE5;
+text-decoration: none;
+text-transform: uppercase;
+}
 .header-logo link {
   color: #4d5ae5;
   font-family: var(--fontlogo);
