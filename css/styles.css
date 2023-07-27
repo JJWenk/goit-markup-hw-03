@@ -118,6 +118,7 @@ text-transform: uppercase;
       letter-spacing: 0.03em;
       text-transform: uppercase;
       margin-right: 76px;
+      margin-bottom: 16px;
     }
     
 
@@ -155,7 +156,10 @@ text-decoration: none;
   .header-menu.link:focus {
     color: var(--ocean);
   }
-  
+  .list {
+    display: flex;
+    gap: 40px;
+    } 
 
 .list {
 list-style: none;
@@ -290,10 +294,7 @@ color: #2E2F42;
     text-transform: capitalize;
     margin-bottom: 72px;
   }
-  .list {
-    display: flex;
-    gap: 24px;
-    }
+ 
 .section-about-item {
      width: calc((100% - 2 * 24px) / 3);
       }
@@ -350,7 +351,7 @@ color: #2E2F42;
   
 }
 
-      .header-logo-footer {
+.header-logo-footer {
         color: #f4f4fd;
 }
 .footer-text {
@@ -377,9 +378,12 @@ color: #2E2F42;
   
 }
 .button-all:hover {
-color:#FFFFFF; background-color: #404BBF;}
+color:#FFFFFF; background-color: #404BBF;
+border: 1px solid transparent;
+}
 .button-all:focus {
-color:#FFFFFF; background-color: #404BBF; 
+color:#FFFFFF; background-color: #404BBF;
+border: 1px solid transparent; 
 }
 .section-picture-title {   
     color: #2e2f42;
@@ -409,7 +413,7 @@ color:#FFFFFF; background-color: #404BBF;
 }
 .portfolio-card-content {
     padding: 32px 16px;
-    border-top: none;
+    border: 1px solid #e7e9fc;
   }
 
 .portfolio-section {
