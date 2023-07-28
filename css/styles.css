@@ -97,6 +97,18 @@ color: #4D5AE5;
 text-decoration: none;
 text-transform: uppercase;
 }
+.header-logo-f.link {
+color: #4d5ae5;
+font-family: var(--fontlogo);
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+display: inline-block;
+margin-bottom: 16px; 
+ }
+
 .header-logo link {
   color: #4d5ae5;
   font-family: var(--fontlogo);
